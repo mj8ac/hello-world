@@ -1,6 +1,6 @@
-<mxfile modified="2020-04-25T13:36:02.028Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="HkcH0UQgoRxlntS_MRty" version="13.0.1" type="github">
+<mxfile modified="2020-04-25T13:38:34.654Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="-91aUV1_QBYhsDmcfrv2" version="13.0.1" type="github">
   <diagram id="f106602c-feb2-e66a-4537-3a34d633f6aa" name="Page-1">
-    <mxGraphModel dx="1410" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1659" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -117,8 +117,8 @@
         <mxCell id="d8N_bVIAyNwwRNF8tKG2-779" value="HTTP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="1161" y="100" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="d8N_bVIAyNwwRNF8tKG2-783" value="Real-time data &amp;lt;= 100ms" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="228" y="230" width="150" height="20" as="geometry" />
+        <mxCell id="d8N_bVIAyNwwRNF8tKG2-783" value="Real-time data &amp;lt;= 100msvia SocketIO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="230" width="220" height="20" as="geometry" />
         </mxCell>
         <mxCell id="d8N_bVIAyNwwRNF8tKG2-784" value="Periodic Data every minute" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="209" y="70" width="160" height="20" as="geometry" />
