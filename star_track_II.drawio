@@ -1,6 +1,6 @@
-<mxfile modified="2020-04-25T16:52:10.563Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="QUlnirx9fd0bDMpqkIzf" version="13.0.1" type="github">
+<mxfile modified="2020-04-25T23:18:44.645Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="kDfg-wR19XUZ3ZcAItVm" version="13.0.1" type="github">
   <diagram id="f106602c-feb2-e66a-4537-3a34d633f6aa" name="Page-1">
-    <mxGraphModel dx="1659" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2842" dy="931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,6 +38,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="d8N_bVIAyNwwRNF8tKG2-780" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="d8N_bVIAyNwwRNF8tKG2-744" target="d8N_bVIAyNwwRNF8tKG2-767" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-2vb09i5TiQDNK01_YHX-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="d8N_bVIAyNwwRNF8tKG2-733" target="-2vb09i5TiQDNK01_YHX-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="d8N_bVIAyNwwRNF8tKG2-733" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" parent="1" vertex="1">
@@ -88,13 +91,13 @@
           <mxGeometry x="439" width="66" height="58.5" as="geometry" />
         </mxCell>
         <mxCell id="d8N_bVIAyNwwRNF8tKG2-738" value="Raw Data Db" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_firestore" parent="1" vertex="1">
-          <mxGeometry x="81" y="460" width="66" height="58.5" as="geometry" />
+          <mxGeometry x="81" y="530" width="66" height="58.5" as="geometry" />
         </mxCell>
         <mxCell id="d8N_bVIAyNwwRNF8tKG2-764" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.16;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;" parent="1" source="d8N_bVIAyNwwRNF8tKG2-750" target="d8N_bVIAyNwwRNF8tKG2-744" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="d8N_bVIAyNwwRNF8tKG2-750" value="GPS Module" style="html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_pubsub" parent="1" vertex="1">
-          <mxGeometry x="326" y="460" width="66" height="58.5" as="geometry" />
+          <mxGeometry x="326" y="530" width="66" height="58.5" as="geometry" />
         </mxCell>
         <mxCell id="d8N_bVIAyNwwRNF8tKG2-773" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;anchorPointDirection=1;startArrow=classic;startFill=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -150,6 +153,32 @@
           <mxGeometry y="0.5" width="44" height="39" relative="1" as="geometry">
             <mxPoint x="5" y="-19.5" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="-2vb09i5TiQDNK01_YHX-9" value="&lt;div&gt;200 writes/ second,&lt;/div&gt;&lt;div&gt;assuming 20 modules &lt;br&gt;&lt;/div&gt;&lt;div&gt;transmitting @ 10Hz&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="455" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-2vb09i5TiQDNK01_YHX-11" value="&lt;div&gt;200 msg/ second,&lt;/div&gt;&lt;div&gt;assuming 20 modules &lt;br&gt;&lt;/div&gt;&lt;div&gt;transmitting @ 10Hz&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="455" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-2vb09i5TiQDNK01_YHX-12" value="200Hz" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="290" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-2vb09i5TiQDNK01_YHX-13" value="200Hz" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="230" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-2vb09i5TiQDNK01_YHX-17" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="10" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-2vb09i5TiQDNK01_YHX-18" value="&lt;font color=&quot;#000000&quot;&gt;Cloud Storage&lt;/font&gt;&lt;br&gt;Cloud Filestore" style="dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_filestore;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" vertex="1" parent="-2vb09i5TiQDNK01_YHX-17">
+          <mxGeometry y="0.5" width="44" height="39" relative="1" as="geometry">
+            <mxPoint x="5" y="-19.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-2vb09i5TiQDNK01_YHX-20" value="Archive of raw data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="180" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-2vb09i5TiQDNK01_YHX-21" value="&lt;div&gt;2 x n number of &lt;br&gt;&lt;/div&gt;&lt;div&gt;concurrent games&lt;/div&gt;&lt;div&gt;every 30 seconds&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="109" y="115" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
