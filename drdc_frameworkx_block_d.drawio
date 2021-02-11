@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-10T17:18:53.926Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="gM4ONlug6nm-TtXAHOFo" version="14.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-11T16:53:18.702Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="GVtRnzpb0TAxJWXi6X_u" version="14.3.0" type="github">
   <diagram id="KwXItZOLm563Cn7FzS6w" name="Page-1">
-    <mxGraphModel dx="1235" dy="1238" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2247" dy="1832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,8 +19,11 @@
         <mxCell id="TfpygzVhcYEVbCiinkKd-5" value="Sink" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="732.85" y="150" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="TfpygzVhcYEVbCiinkKd-9" value="TensorFlow Model&lt;br&gt;Parser" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="300" width="120" height="60" as="geometry" />
+        <mxCell id="UBeTGBGxpD2IlM4JwGMD-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=3;" edge="1" parent="1" source="TfpygzVhcYEVbCiinkKd-9" target="TfpygzVhcYEVbCiinkKd-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TfpygzVhcYEVbCiinkKd-9" value="TF-TRT" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-230" y="807" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TfpygzVhcYEVbCiinkKd-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;strokeWidth=3;" parent="1" source="TfpygzVhcYEVbCiinkKd-10" target="TfpygzVhcYEVbCiinkKd-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -30,12 +33,6 @@
         </mxCell>
         <mxCell id="TfpygzVhcYEVbCiinkKd-11" value="FrameWorkx&lt;br&gt;Config Store" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="140" y="570" width="80" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="TfpygzVhcYEVbCiinkKd-12" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeWidth=3;" parent="1" source="TfpygzVhcYEVbCiinkKd-11" target="TfpygzVhcYEVbCiinkKd-9" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="150" y="500" as="sourcePoint" />
-            <mxPoint x="200" y="450" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="TfpygzVhcYEVbCiinkKd-13" value="" style="endArrow=classic;startArrow=classic;html=1;dashed=1;strokeWidth=3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="TfpygzVhcYEVbCiinkKd-11" target="TfpygzVhcYEVbCiinkKd-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -70,8 +67,8 @@
         <mxCell id="TfpygzVhcYEVbCiinkKd-26" value="Predictions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="680" y="210" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="TfpygzVhcYEVbCiinkKd-27" value="Configuration file data&lt;br&gt;/path/to/TensorFlow/protex/file" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="210" y="470" width="110" height="40" as="geometry" />
+        <mxCell id="TfpygzVhcYEVbCiinkKd-27" value="Tf Frozen graph or saved model to TensorRT plan file saved to disk" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-44" y="784" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TfpygzVhcYEVbCiinkKd-28" value="Configuration file data:&lt;br&gt;/path/to/serialised/engine" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="310" y="580" width="110" height="40" as="geometry" />
@@ -102,6 +99,9 @@
         </mxCell>
         <mxCell id="UBeTGBGxpD2IlM4JwGMD-7" value="Out:V4_Nn_Status" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="695.71" y="110" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UBeTGBGxpD2IlM4JwGMD-8" value="&lt;h1&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="80" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
